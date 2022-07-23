@@ -240,4 +240,9 @@ async def unlock_error(ctx, error):
 keep_alive.keep_alive()
 token = os.environ.get("TOKEN")
 # Run the client on the server
-client.run('ODgzOTQzNjIwMzAwOTA2NTI2.GEZGWr.y5amxXmeIpoQ3ERu8VbT5kQjLzJ0D5m0XoDvgA')
+
+package Bots;
+
+public class Secret {
+	public static String TestBotToken = System.getenv("TOKEN");
+}
